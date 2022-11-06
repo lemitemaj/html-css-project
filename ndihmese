@@ -1,0 +1,16 @@
+ <span>
+                <i class="fa-thin fa-phone"></i>
+                +383 49 326 488
+                <span>
+                    <i class="fa-solid fa-truck-fast"></i>
+                    Transport në Kosovë, Shqipëri dhe Maqedoni
+                </span>
+        </div>
+        <div class="lang">
+            <a href="#"class="active">Shq</a>
+            <span>
+                <a href="#">En</a>
+            </span>
+        </div>
+
+    </div>

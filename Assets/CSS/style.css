@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+
+:root {
+    --primary-color: #f3aaaa;
+
+}
+
+body {
+    
+        background:linear-gradient(0deg, rgba(102, 82, 82, 0.4), rgba(107, 111, 92, 0.307)), url('../Images/headerwallefundit.jpg');
+        opacity: 0.9;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+ }
+
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    font-size: 20px;
+    height: 45px;
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 20px;
+    padding: 6px 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid var(--primary-color);
+    transition: all, 4s;
+}
+
+
+.btn:hover {
+    background-color: var(--primary-color);
+}
+ a .active {
+    color: var(--primary-color);
+    text-decoration: none;  
+}
+
+
+.container body {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+header {
+    height: 150px;
+    text-align: justify;
+    border-radius: 5px;
+    border-width: 20px;
+    padding: 10px;
+    margin: auto;
+    color: var(--primary-color);
+    background-color: #ac6069;
+    text-align: center;
+    
+}
+
+   
+header a {
+    color: white;
+    text-decoration: none
+    
+
+}
+header i {
+    color: var(--primary-color);
+}
+
+
+
+header .contact {
+    font-size: 20px;
+    align-content: center;
+    color: rgb(222, 255, 235);
+
+}
+
+header nav {
+
+}
+header nav ul {
+    list-style-type: none;
+    font-size: px;
+    display: flex;
+    text-align: flex-start;
+    justify-content: space-evenly;
+    margin: 10px;
+    gap: 80px;
+
+}
+main {
+    height:calc(100vh-85px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .container {
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .play-icon {
+    width: 50px;
+    height: 50px;
+    box-sizing: content-box;
+    background-color: var(--primary-color);
+    border-radius: 20%;
+    border: 5px solid rgba(99, 160, 115, 0.52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    color: white;
+    font-size: 80px;
+}
+main h1 span {
+    color: var(--primary-color);
+}
+
+main p {
+    color:white ;
+    font-size: 40px;
+
+
+}
+
+main .play-icon {
+    color: white;
+    font-size: 32px;
+    padding-left: 5px;
+}
+
+section#intro {
+    height: 700px;
+    background:linear-gradient(0deg, rgba(102, 82, 82, 0.4), rgba(107, 111, 92, 0.307)), url('../Images/backgroundintro.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+   padding: 50px;
+   margin: 30px;
+}
+
+section#intro .container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 30px;
+    color: white;
+}
+
+section#intro ul {
+    list-style-type: circle;
+    margin: 20px 0px;
+    list-style-position: inside;
+    margin-left: 30px;
+    
+}
+section#intro ul li {
+    padding: 10px 0px;
+    line-height: 50px;
+
+}
+section#intro h3 {
+    color: white;
+    padding-bottom: 50px;
+}
+
+section#intro p {
+    margin: 10px 0px;
+}
+
+section#intro img {
+    display: block;
+    width: 300px;
+    border: 5px solid white;
+    padding: 5px;
+}
+
+section#Staff {
+    height: 1100px;
+    padding: 60px;
+    color: white;
+    background-color: rgba(86, 124, 86, 0.477);    background-attachment: local;
+    background-size: cover;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 2fr 0.1fr;
+}
+
+section#Staff .card {
+        height: 150px;
+        padding: 40px;
+        box-shadow: 0px 2px 15px rgb(0, 0, 0 / 5%);
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    section#Staff .card span {
+        color: white;
+        font-weight: 400;
+        display: flex;
+        border: 5px solid white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    section#Staff h4 {
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    section#Staff p {
+        font-size: 25px;
+        margin: 20px;
+        text-align: center;
+
+        
+    }
+
+    section#Staff .card img {
+      
+        border: 2px solid white;
+        padding: 5px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    section#Sales {
+         height: 700px;
+        padding: 100px 0px;
+        background-color: #ac606974;
+        color: white;
+        text-align: center;
+    }
+    section#Sales .categories {
+        margin: 40px 0px;
+
+        display: flex;
+        justify-content: center;
+    }
+    
+    section#Sales .categories ul {
+        color: white;
+        list-style-type: none;
+        display: flex;
+        gap: 50px;
+    }
+
+     section#Sales .items {
+        display: flex;
+        gap: 40px;
+        margin: 20px;
+        padding: 20px;
+    }
+    section#Sales .item {
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        margin: 20px;
+        gap: 300px;
+    }
+
+     section#Sales .item img {
+        width: 100px;
+        border: 3px solid rgba(255, 255, 255, 0.8);
+        border-radius: 50%;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: flex-start;
+       
+    }
